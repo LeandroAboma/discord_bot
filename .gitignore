@@ -1,0 +1,9 @@
+# Ignorar variáveis de ambiente
+.env
+
+# Ignorar o banco de dados local do bot
+intigriti_state.json
+
+# Ignorar pastas do Python
+__pycache__/
+*.py[cod]

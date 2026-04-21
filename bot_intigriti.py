@@ -132,4 +132,5 @@ async def on_ready():
     # Inicia a task em background assim que o bot conecta
     monitorar_intigriti.start()
 
+keep_alive()
 bot.run(DISCORD_TOKEN)
